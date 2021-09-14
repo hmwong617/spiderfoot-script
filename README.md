@@ -34,9 +34,9 @@ for i in `ls ../output/ | grep -v broken`;do python3 merge_spider_json.py $i ;do
 # Reference
 ## Format of URL csv
 ```
-English Name, English Name, URL,
-Chinese University of Hong Kong,,www.cuhk.edu.hk,
-Education Bureau,,www.edb.gov.hk,
+English Name, Chinese Name, URL,
+Chinese University of Hong Kong,ABC,www.cuhk.edu.hk,
+Education Bureau,ABC,www.edb.gov.hk,
 ```
 
 ## Useful spiderfoot module
